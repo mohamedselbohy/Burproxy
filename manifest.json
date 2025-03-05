@@ -1,0 +1,11 @@
+{
+    "name": "Proxy for Burp Suite",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Browser extension that uses javascript to trigger a rust binary to proxy requests through Burp Suite",
+    "background": {
+        "service_worker": "index.js"
+    },
+    "action": {},
+    "permissions": ["proxy", "storage", "activeTab"]
+}
